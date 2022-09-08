@@ -1,0 +1,18 @@
+###
+POST http://localhost:4040/api/figuritas HTTP/1.1
+Content-Type: application/json
+
+{
+    "nombre": "Cristiano",
+    "apellido": "Ronaldo",
+    "pais": "Portugal",
+    "codigo": "POR-13"
+}
+
+
+###
+GET http://localhost:4040/api/figuritas HTTP/1.1
+
+
+###
+GET http://localhost:4040/api/figuritas/ARG-14 HTTP/1.1
