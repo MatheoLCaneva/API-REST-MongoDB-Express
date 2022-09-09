@@ -18,7 +18,7 @@ router.get("/figuritas", (req, res) => {
     userSchema
         .find()
         .then((data) => res.json(data))
-        .catch((error) => res.json({ message: error }))
+        .catch((error) => res.json({ message: error })) 
 })
 
 
